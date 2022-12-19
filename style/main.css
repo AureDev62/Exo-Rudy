@@ -1,0 +1,148 @@
+main {
+    width: 100%; 
+}
+
+.banner {
+    width: 100%;
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    
+}
+
+
+.banner  img {
+    overflow: hidden;
+    
+}
+ 
+
+.section1{
+    width: 55%;
+    margin:30px auto;
+}
+
+.section1 p {
+    margin-top:10px;
+    
+}
+
+.section1 p strong {
+    color: var(--varSecondaire);
+}
+
+
+
+h2 {
+    text-align: center;
+    margin: 30px 0;
+    font-family: 'Caveat', cursive;
+    font-size: 2rem;
+}
+
+.container1{
+    width: 50%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat( auto-fill,270px);
+    justify-content: center;
+    gap: 20px;
+}
+
+.container1 > div{
+    border:solid 1px var(--varGrisclair);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: var(--varSombre);
+}
+
+.container1 p {
+    font-family:'Quicksand', sans-serif; ;
+    font-size:0.7rem;
+    padding: 3px;
+}
+
+.container1 h3 {
+    font-family: 'Quicksand', sans-serif;
+    padding: 3px;
+}
+
+
+
+
+.container1 :nth-child(7) {
+    background-color: var(--varSecondaire);
+}
+
+.section3 {
+    width: 50%;
+    margin: 0 auto;
+   
+}
+
+
+
+/* ===============================MISE EN PLACE DE LA GRILLE ET LA MISE EN FORME POUR LES CARTES STREAMEURS=======================*/
+
+
+
+
+.container2 {
+    width: 100%;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill ,200px);
+    justify-content: center;
+    column-gap: 20px;
+    
+}
+
+
+
+.cardStreamer {
+    width:200px;
+    height:250px;
+} 
+
+.cardSize {
+width:200px;
+height:210px; 
+background-color:var(--varNoirExtra);
+border-radius:20px;
+display:flex;
+text-align: center;
+align-items: center;
+}
+
+.cardFull{
+    width:100%;
+}
+
+.titreStreamer {
+    margin-top:4px;
+    text-align:center;
+}
+
+
+.imgStreamer {
+    width:80%;
+    margin:0 auto;
+    border-radius:15px;
+}
+
+.cardSize:hover {
+    transition:0.3s;
+    background-color:var(--varSecondaire)
+}
+
+.cardStreamer :last-child:hover {
+    transition:0.3s;
+    color:var(--varSecondaire)
+} 
+
+
